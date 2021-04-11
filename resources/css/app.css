@@ -1,0 +1,120 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100vh;
+}
+
+html,
+body,
+#root {
+    padding: 0;
+    margin: 0;
+}
+
+.loadingBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbarCustom {
+    background-color: #16b4e3 !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+
+.card-group {
+    display: block !important;
+    margin: 0 !important;
+}
+
+.cardCustom {
+    width: 20rem !important;
+    max-height: 100px !important;
+}
+
+.card-body {
+    justify-content: center;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.boxOrderProducts {
+    display: flex;
+    background-color: #eee;
+    margin-bottom: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxOrderProducts {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.counProductsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .counProductsBox {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ESTILOS DE ADMIN PANEL */
+.adminContent {
+    display: flex;
+    background-color: #F5F4F4;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    height: 90vh;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.boxTitle{
+  display: flex;
+  justify-content: center;
+}
